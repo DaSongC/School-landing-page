@@ -1,0 +1,68 @@
+  /* font */
+  *{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* image */
+
+  body {
+    background-image: url("/images/Canva-School-Supplies-Photo.png");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+  }
+
+  
+/* box */
+
+  div { 
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.55);
+    
+    padding: 2em;
+    margin: 20em;
+}
+
+/* nav bar */
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #FFB800;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #c48600;
+    }
+    
+    .active {
+      background-color: #c48600;
+    }
+
+/* button */
+
+    #button {font-size: 1.5em; 
+    background-color:#FFB800; 
+    border:#FFB800; 
+    padding: .5em; 
+    text-decoration: none;
+}
+    

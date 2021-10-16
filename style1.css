@@ -7,7 +7,7 @@
   /* image */
 
   body {
-    background-image: url("/images/Canva-School-Supplies-Photo.png");
+    background-image: url("./images/Canva-School-Supplies-Photo.png");
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;

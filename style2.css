@@ -9,7 +9,7 @@
 
 /* image */
 body {
-    background-image: url("/images/school-supplies-background-with-copy-space-free-photo.webp");
+    background-image: url("./images/school-supplies-background-with-copy-space-free-photo.webp");
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;

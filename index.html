@@ -3,41 +3,38 @@
 <head>
   <title>School Supplies</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
   <link rel="stylesheet" href="./style1.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="style1">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
 </head>
 <body>
   <ul>
-    <li><a  class="active" href="./index.html">Home</a></li>
-    <li><a href="html/Sign_up.html" >Sign up</a></li>
-    <li><a href="html/Log_in.html">Log in</a></li>
-  </ul>
-  
-  <div> 
-    <h1 style="font-size: 3em;">School Supplies</h1> 
-
-    <pre style="font-size: 1.5em;">
-
-
-All the supplies you need for school and 
-20% off with your first purchase. 
+    <li ><a class="active desktop-link" href="./index.html">Home</a></li>
+    <li ><a class="desktop-link" href="html/Sign_up.html" >Sign up</a></li>
+    <li ><a class="desktop-link" href="html/Log_in.html">Log in</a></li>
+    <li><i class="fa fa-bars" id="hamburger" >
+    </i></li>
     
+  </ul>
 
-Sign up or press the Get Started button to
-start your first purchase or Log in to your
-account to continue purchasing. 
-      
+  <div id="signup" class="text"> 
+    <h1 style="font-size: 3em;">School Supplies</h1>
+  
+ 
+      <p>All the supplies you need for school and 
+      20% off with your first purchase.</p>
 
-<a  href="./html/Sign_up.html" id="button" >Get Started</a> 
-    </pre>  
-
+      <p>Sign up or press the Get Started button to start your first purchase 
+      or Log in to your account to continue purchasing.</p>
+      <a href="./html/Sign_up.html" id="button" class="text" >Get Started</a> 
   </div>
 
-  <footer style="text-align: center;">
+  <footer id="copyright">
     <p>Copyright © 2021 DaSongChen.all rights reserved </p>
   </footer>
 </body>

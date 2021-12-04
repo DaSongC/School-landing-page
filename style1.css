@@ -1,4 +1,16 @@
-  /* font */
+ 
+   
+  #signup{ 
+    /* position: absolute;
+    top:6rem; */
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.55);
+    text-align:center;
+    padding: 2em;
+    margin: 8em 20em;
+}
+
+     /* font */
   *{
     margin:0;
     padding: 0;
@@ -14,15 +26,7 @@
   }
 
   
-/* box */
 
-  div { 
-    text-align:center;
-    background-color: rgba(255, 255, 255, 0.55);
-    
-    padding: 2em;
-    margin: 20em;
-}
 
 /* nav bar */
 
@@ -52,17 +56,91 @@
     li a:hover:not(.active) {
       background-color: #c48600;
     }
-    
+    #hamburger{
+      display: none;
+    }
     .active {
       background-color: #c48600;
     }
-
+    
+/* Sign Up Content */
+p{
+  padding: 1rem;
+}
 /* button */
-
-    #button {font-size: 1.5em; 
+    #signup a{
+      margin-top: 2rem;
+    }
+    #button {
+    font-size: 1.4em; 
     background-color:#FFB800; 
-    border:#FFB800; 
-    padding: .5em; 
+    border:#FFB800;
+    padding: 1rem; 
     text-decoration: none;
 }
     
+/* Responsive */
+  @media screen and (max-width:1200px){
+    #signup{
+      margin:10rem;
+    }
+  }
+
+  @media screen and (max-width:1000px){
+    #signup{
+      margin:10rem;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    #signup{
+      margin:10rem;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    #hamburger{
+      display:block
+    }
+
+    #hamburger{
+      scale:1000em;
+      padding: 12px;;
+    }
+    
+    .desktop-link{
+      display:none;
+    }
+  }
+
+  @media only screen and (min-width:801px) {
+    #signup.text {
+      font-size:1.2em;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    #signup.text {
+      font-size:1em;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    #button {
+      font-size: 1em;
+      
+    }
+
+    #signup{
+      font-size:1.4rem;
+      margin:5rem 5rem;
+      padding:2rem;
+    }
+  }
+
+  #copyright{
+    text-align: center;
+    color: black;
+    padding: 1em;
+    background-color: #FFB800;
+  }

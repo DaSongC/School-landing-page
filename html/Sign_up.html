@@ -2,47 +2,47 @@
 <html>
 <head>
   <title>Sign up</title>
+
   <link rel="stylesheet" href="../style2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="style2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <ul>
-      <li><a  href="../index.html">Home</a></li>
-      <li><a class="active" href="Sign_up.html" >Sign up</a></li>
-      <li><a href="Log_in.html">Log in</a></li>
+      <li ><a class="desktop-link" href="../index.html">Home</a></li>
+    <li ><a class="active desktop-link" href="Sign_up.html" >Sign up</a></li>
+    <li ><a class="desktop-link" href="Log_in.html">Log in</a></li>
+      <li><i class="fa fa-bars" id="hamburger" >
+      </i></li>
     </ul>
   
-  <div> 
-  <h1 style="font-size: 3em;text-align: center;">Sign up</h1> 
-  <pre style="text-align: center;"><form id action="/action_page.php">
+  <div class="text" id="signupform">
+    <h1 id=signup>Sign up</h1> 
+    <p style="text-align: center;"></p>
 
-  <label for="fname" style="font-size: 1.5em;">First name:</label>
-  <input style="font-size: 1.5em;" type="text" id="fname" name="fname" value=""> 
-        
-  <label for="lname" style="font-size: 1.5em;">Last name:</label>
-  <input style="font-size: 1.5em;" type="text" id="lname" name="lname" value="">
-        
-  <label for="Email" style="font-size: 1.5em;">Email:</label>
-  <input style="font-size: 1.5em;" type="text" id="Email" name="Email" value="">
 
-  <label for="State/city" style="font-size: 1.5em;">State/city :</label>
-  <input style="font-size: 1.5em;" type="text" id="State/city" name="State/city" value="">
+    <form id action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input style="font-size: 1.5em;" type="text" id="fname" name="fname" value=""> 
 
-<label for="Zipcode" style="font-size: 1.5em;">Zipcode :</label>
-<input style="font-size: 1.5em;" type="text" id="Zipcode" name="Zipcode" value=""><br>
+      <label for="lname">Last name:</label>
+      <input style="font-size: 1.5em;" type="text" id="lname" name="lname" value="">
+            
+      <label for="Email">Email:</label>
+      <input style="font-size: 1.5em;" type="text" id="Email" name="Email" value="">
 
-<a  href="Password.html" type="link" value="Submit" style="font-size: 1.5em;
-background-color: white; 
-border:rgb(0, 0, 0); 
-padding: .5em;text-decoration: none;" >Submit</a> 
-      </form>
-</pre>
+      <label for="State/city">State/City:</label>
+      <input style="font-size: 1.5em;" type="text" id="State/city" name="State/city" value="">
+
+      <label for="Zipcode">Zipcode:</label>
+      <input style="font-size: 1.5em;" type="text" id="Zipcode" name="Zipcode" value=""><br>
+    </form>
     
-
-
+    <a id="submit" href="Password.html" type="link">Submit</a> 
   </div>
-  <footer style="text-align: center;">
+
+  <footer id="copyright">
     <p>Copyright © 2021 DaSongChen.all rights reserved </p>
   </footer>
